@@ -1,0 +1,59 @@
+.gastronomy{
+    margin: 100px 0 10px 0;
+
+        .gastronomy-modern-title{
+            text-transform: uppercase;
+        }
+
+        .gastronomy-modern{
+            margin-bottom: 80px;
+
+            .gastronomy-modern-img{
+                img{                    
+                    border-radius: 5px;    
+                }
+            }
+
+            .gastronomy-modern-text{
+                p{
+                    text-align: justify;
+                }
+
+                img{
+                    width: 100%;
+                    height: 190px;
+                    border-radius: 5px;                    
+                }
+            }
+        }
+
+        .gastronomy-traditional-title{
+            text-transform: uppercase;
+        }
+
+        .gastronomy-traditional{
+            margin-bottom: 80px;
+
+            .gastronomy-traditional-img{
+                img{  
+                    width: 100%;                                 
+                    border-radius: 5px;    
+                }
+            }
+
+            .gastronomy-traditional-text{
+                p{
+                    text-align: justify;
+                }                
+            }
+        }        
+}
+
+.gastronomy-galerry{
+    margin-bottom: 80px;
+    img{
+        width: 100%;
+        height: 500px;
+        border-radius: 5px;
+    }
+}

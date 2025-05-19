@@ -1,0 +1,22 @@
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;        
+    position: absolute;
+    bottom: 5%;
+    z-index: 100;  
+
+        a{
+            padding: 20px;
+            font-size: 21px;
+            color: rgb(221, 221, 221);
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: #fa172a;
+        }
+}

@@ -1,0 +1,78 @@
+.about-architetura{
+    margin-bottom: 80px;
+
+    h2{
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+
+    p{
+        margin-top: 30px;
+    }
+}
+
+.traditional{
+    margin-bottom: 80px;
+
+        h2{
+            text-transform: uppercase;
+            img{
+                width: 60px;
+                height: auto;
+            }
+        }
+
+        
+
+        p{
+            text-align: justify;
+        }
+        .traditional-img{
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+            }
+        }
+        
+}
+
+.modern{
+    margin-bottom: 80px;
+
+        h2{
+            text-transform: uppercase;
+            img{
+                width: 60px;
+                height: auto;
+            }
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        .modern-img{
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+            }
+        }
+        
+}
+
+.architecture-final{
+    margin-top: 40px;
+
+    p{
+        text-align: justify;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}

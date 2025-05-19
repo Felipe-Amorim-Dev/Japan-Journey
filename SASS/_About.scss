@@ -1,0 +1,160 @@
+.about-section-historia{
+    margin-top: 80px;
+
+        .historia-img img{
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
+            margin-bottom: 40px;
+        }
+        
+        .historia-text{         
+            width: fit-content;
+            height: auto;
+        
+                h2{                    
+                    text-transform: uppercase;
+                    
+                        img{
+                            width: 60px;
+                            height: auto;                                                        
+                        }
+                }
+        
+                h3{
+                    font-size: 1.1rem;
+                    color: gray;
+                }
+        
+                p{
+                    text-align: justify;
+                    margin-left: 20px;
+                }
+        }
+}
+
+.about-section-tokyo{
+    margin-top: 60px;
+
+        .tokyo-text{
+            width: fit-content;
+            height: auto;
+
+                h2{                   
+                    text-transform: uppercase;
+
+                        img{
+                            width: 60px;
+                            height: auto;                            
+                        }
+                }
+
+                h3{
+                    font-size: 1.1rem;
+                    color: grey;
+                }
+
+                p{
+                    text-align: justify;
+                    margin-left: 20px;
+                }
+        }
+
+        .tokyo-img img{
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
+        }
+}
+
+.about-section-vilage{
+    margin-top: 60px;
+
+        .vilage-text{
+            width: fit-content;
+            height: auto;
+
+                h2{                    
+                    text-transform: uppercase;
+
+                        img{
+                            width: 60px;
+                            height: auto;                          
+                        }
+                }
+
+                h3{
+                    font-size: 1.1rem;
+                    color: grey;
+                }
+
+                p{
+                    text-align: justify;
+                    margin-left: 20px;
+                }
+        }
+
+        .vilage-img img{
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
+        }
+}
+
+.inf-section{
+    margin-top: 3vw;    
+    background-color: rgb(51, 51, 51);
+}
+
+.about-information-text{       
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 6vw;    
+
+        .about-information-population{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8vw;
+
+                .about-inf-numerical{
+                    font-size: 9vw;
+                    line-height: 6vw;
+                    color: white;
+                    
+                        strong{
+                            margin-left: 20px;
+                        }
+                }
+
+                .about-inf-text{
+                    font-size: 3vw;
+                    color: white;
+                }
+        }
+
+        .about-information-area{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8vw;   
+
+                .about-inf-numerical{
+                    font-size: 9vw;
+                    line-height: 6vw;
+                    color: white;
+                    
+                        strong{
+                            margin-left: 20px;
+                        }
+                }
+
+                .about-inf-text{
+                    font-size: 3vw;
+                    color: white;
+                }
+        }
+}

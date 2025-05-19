@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  z-index: 100;
+}
+.menu a {
+  padding: 20px;
+  font-size: 21px;
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #fa172a;
+}
+
+.menu-responsivo {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  position: fixed;
+  top: 30%;
+  left: -160px;
+  z-index: 10;
+  background-color: rgba(54, 54, 82, 0.5);
+  border-radius: 0 20px 20px 0;
+  display: none;
+}
+.menu-responsivo #nav-side-culture {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-culture img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo #nav-side-architecture {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-architecture img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo #nav-side-art {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-art img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo #nav-side-gastronomy {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-gastronomy img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo a:hover {
+  color: #fa172a;
+}
+
+.menu-responsivo:hover {
+  transform: translatex(160px);
+}
+
+.logo {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+}
+.logo img {
+  width: 10vw;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(190, 247, 247);
+  background-image: url(/IMG/Japan_banner_blur_01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .banner-intro p {
+  text-align: justify;
+}
+
+.banner-intro-title h1 {
+  position: relative;
+  bottom: -2vw;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+.banner-intro-title h1 strong {
+  color: #fa172a;
+}
+.banner-intro-title .subTitle h2 {
+  text-transform: uppercase;
+  color: #fa172a;
+  font-size: 10vw;
+}
+
+.banner-intro-text {
+  color: whitesmoke;
+}
+
+.Transition {
+  width: 100vw;
+  height: 200px;
+  background: rgb(241, 241, 241);
+  background: linear-gradient(0deg, rgb(241, 241, 241) 0%, rgb(241, 241, 241) 14%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  bottom: 0px;
+}
+
+.division {
+  width: 100vw;
+  height: 100px;
+  background-color: #f1f1f1;
+  transform: translateY(-20px);
+}
+
+.about-content {
+  text-align: center;
+}
+.about-content h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about-section-historia {
+  margin-top: 80px;
+}
+.about-section-historia .historia-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+}
+.about-section-historia .historia-text {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.about-section-historia .historia-text h2 {
+  text-transform: uppercase;
+}
+.about-section-historia .historia-text h2 img {
+  width: 60px;
+  height: auto;
+}
+.about-section-historia .historia-text h3 {
+  font-size: 1.1rem;
+  color: gray;
+}
+.about-section-historia .historia-text p {
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.about-section-tokyo {
+  margin-top: 60px;
+}
+.about-section-tokyo .tokyo-text {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.about-section-tokyo .tokyo-text h2 {
+  text-transform: uppercase;
+}
+.about-section-tokyo .tokyo-text h2 img {
+  width: 60px;
+  height: auto;
+}
+.about-section-tokyo .tokyo-text h3 {
+  font-size: 1.1rem;
+  color: grey;
+}
+.about-section-tokyo .tokyo-text p {
+  text-align: justify;
+  margin-left: 20px;
+}
+.about-section-tokyo .tokyo-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.about-section-vilage {
+  margin-top: 60px;
+}
+.about-section-vilage .vilage-text {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.about-section-vilage .vilage-text h2 {
+  text-transform: uppercase;
+}
+.about-section-vilage .vilage-text h2 img {
+  width: 60px;
+  height: auto;
+}
+.about-section-vilage .vilage-text h3 {
+  font-size: 1.1rem;
+  color: grey;
+}
+.about-section-vilage .vilage-text p {
+  text-align: justify;
+  margin-left: 20px;
+}
+.about-section-vilage .vilage-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.inf-section {
+  margin-top: 3vw;
+  background-color: rgb(51, 51, 51);
+}
+
+.about-information-text {
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 6vw;
+}
+.about-information-text .about-information-population {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vw;
+}
+.about-information-text .about-information-population .about-inf-numerical {
+  font-size: 9vw;
+  line-height: 6vw;
+  color: white;
+}
+.about-information-text .about-information-population .about-inf-numerical strong {
+  margin-left: 20px;
+}
+.about-information-text .about-information-population .about-inf-text {
+  font-size: 3vw;
+  color: white;
+}
+.about-information-text .about-information-area {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vw;
+}
+.about-information-text .about-information-area .about-inf-numerical {
+  font-size: 9vw;
+  line-height: 6vw;
+  color: white;
+}
+.about-information-text .about-information-area .about-inf-numerical strong {
+  margin-left: 20px;
+}
+.about-information-text .about-information-area .about-inf-text {
+  font-size: 3vw;
+  color: white;
+}
+
+.about-map {
+  background-color: rgba(208, 247, 252, 0.4235294118);
+  padding: 6vw 0 6vw 0;
+}
+.about-map .map-titulo {
+  justify-content: center;
+  align-items: center;
+}
+.about-map .map-titulo h2 {
+  width: 100vw;
+  height: auto;
+  padding: 10px 30px 10px 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+.about-map .map-titulo h2 img {
+  width: 5vw;
+  height: auto;
+}
+.about-map .map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3vw 0 3vw;
+}
+.about-map .map iframe {
+  margin-top: 3vw;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  background-color: #003d2c;
+  padding-bottom: 2vw;
+}
+
+.section-footer {
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-footer .footer-about {
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vw;
+}
+.section-footer .footer-about .footer-logo img {
+  width: 10vw;
+  height: auto;
+}
+.section-footer .footer-about .footer-about-text {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.section-footer .footer-about .footer-about-text h3 {
+  color: whitesmoke;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.section-footer .footer-about .footer-about-text strong {
+  color: #fa172a;
+}
+.section-footer .footer-about .footer-about-text p {
+  color: whitesmoke;
+  text-align: justify;
+}
+.section-footer .footer-developer {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.section-footer .footer-developer .footer-developer-title h3 {
+  color: whitesmoke;
+}
+.section-footer .footer-developer .footer-developer-title p {
+  color: whitesmoke;
+}
+.section-footer .footer-developer .footer-developer-social h4 {
+  color: whitesmoke;
+}
+.section-footer .footer-developer .footer-developer-social a {
+  color: #fa172a;
+}
+
+@media only screen and (min-width: 260px) and (max-width: 678px) {
+  .menu {
+    display: none;
+  }
+  .menu-responsivo {
+    display: block;
+  }
+  .menu-responsivo:hover {
+    transform: translatex(160px);
+  }
+}/*# sourceMappingURL=Style.css.map */

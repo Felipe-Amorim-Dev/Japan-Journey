@@ -1,0 +1,107 @@
+.culture-section{
+    background-color: #f1f1f1;
+    background-image: url(/IMG/Culture/culture-bg-inf.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 6vw;    
+}
+
+.culture-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+        h2{               
+            font-size: 4rem;
+            text-transform: uppercase;
+            color: #f1f1f1;
+            margin-bottom: 3vw;            
+            
+                img{
+                    width: 3vw;
+                    height: auto;
+                    margin: 0 2vw 1vw 2vw;                                       
+                }
+        }
+}
+
+.culture-text{    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;    
+    background-color: #44444477;
+    border-radius: 20px;
+
+        h2{
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin-left: 1vw;
+        }
+
+        h3{
+            font-size: 1.5rem;
+            margin-left: 1vw;
+            padding-right: 1vw;
+        }
+
+        p{  
+            margin-left: 1vw;              
+            text-align: justify;    
+            color: wheat;
+            padding-right: 1vw;
+            text-shadow: 1px 1px 2px black;
+        }        
+
+        img{
+            width: 30vw;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
+        }
+               
+}
+
+.culture-gallery{    
+    justify-content: center;
+    align-items: start;        
+
+        .gallery-primary-img{
+        
+                img{
+                    width: 24.4vw;
+                    height: auto;
+                    border-radius: 20px;
+                    margin-right: 1vw;
+                    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);
+                }                
+        }
+
+        .gallery-secondary-img{
+            
+                img{            
+                    width: 35vw;
+                    height: auto;          
+                    margin-bottom: 1vw;
+                    border-radius: 20px;
+                    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);      
+                }                
+        }
+
+        .sub-secondary-img{
+            box-sizing: border-box;
+            img{
+                width: 17.5vw;
+                height: auto;
+                            
+            }            
+
+            :nth-child(1){                
+                border-radius: 10px 0 0 10px;
+            }
+            :nth-child(2){                
+                border-radius: 0 10px 10px 0;
+            }
+        }
+}

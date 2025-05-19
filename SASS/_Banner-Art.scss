@@ -1,0 +1,31 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(190, 247, 247);
+    background-image: url(/IMG/Art/Japan_art_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-intro-title{
+    
+    h1{
+        color: whitesmoke;
+        font-size: 200%;        
+        strong{
+            color: #fa172a;        
+        }
+    }
+    
+}
+
+.art-banner-divisor{
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+    bottom: -20px;
+    background: rgb(2,2,2);
+    background: linear-gradient(0deg, rgba(2,2,2,1) 0%, rgba(2,2,2,1) 25%, rgba(255,255,255,0) 100%);
+}

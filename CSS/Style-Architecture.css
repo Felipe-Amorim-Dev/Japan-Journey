@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@font-face {
+  font-family: chalk;
+  src: url();
+}
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  z-index: 100;
+}
+.menu a {
+  padding: 20px;
+  font-size: 21px;
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #fa172a;
+}
+
+.menu-responsivo {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  position: fixed;
+  top: 30%;
+  left: -160px;
+  z-index: 10;
+  background-color: rgba(54, 54, 82, 0.5);
+  border-radius: 0 20px 20px 0;
+  display: none;
+}
+.menu-responsivo #nav-side-culture {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-culture img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo #nav-side-architecture {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-architecture img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo #nav-side-art {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-art img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo #nav-side-gastronomy {
+  padding: 20px;
+}
+.menu-responsivo #nav-side-gastronomy img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.menu-responsivo a:hover {
+  color: #fa172a;
+}
+
+.menu-responsivo:hover {
+  transform: translatex(160px);
+}
+
+.logo {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+}
+.logo img {
+  width: 10vw;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(190, 247, 247);
+  background-image: url(/IMG/Architeture/Japan_banner_07.jpeg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .banner-intro p {
+  text-align: justify;
+}
+
+.banner-intro-title h1 {
+  color: whitesmoke;
+  font-size: 200%;
+}
+.banner-intro-title h1 strong {
+  color: #fa172a;
+}
+
+.Transition-banner-architecture {
+  width: 100vw;
+  height: 220px;
+  background: rgb(241, 241, 241);
+  background: linear-gradient(0deg, rgb(241, 241, 241) 0%, rgb(241, 241, 241) 14%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  bottom: -20px;
+}
+
+.about-architetura {
+  margin-bottom: 80px;
+}
+.about-architetura h2 {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.about-architetura p {
+  margin-top: 30px;
+}
+
+.traditional {
+  margin-bottom: 80px;
+}
+.traditional h2 {
+  text-transform: uppercase;
+}
+.traditional h2 img {
+  width: 60px;
+  height: auto;
+}
+.traditional p {
+  text-align: justify;
+}
+.traditional .traditional-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modern {
+  margin-bottom: 80px;
+}
+.modern h2 {
+  text-transform: uppercase;
+}
+.modern h2 img {
+  width: 60px;
+  height: auto;
+}
+.modern p {
+  text-align: justify;
+}
+.modern .modern-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.architecture-final {
+  margin-top: 40px;
+}
+.architecture-final p {
+  text-align: justify;
+}
+.architecture-final img {
+  width: 100%;
+  height: auto;
+}
+
+.architecture-divisor {
+  width: 100%;
+  height: 90px;
+  background-image: url(/IMG/Architeture/divisor_japan.png);
+}
+
+footer {
+  background-color: #003d2c;
+  padding-bottom: 2vw;
+}
+
+.section-footer {
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-footer .footer-about {
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vw;
+}
+.section-footer .footer-about .footer-logo img {
+  width: 10vw;
+  height: auto;
+}
+.section-footer .footer-about .footer-about-text {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.section-footer .footer-about .footer-about-text h3 {
+  color: whitesmoke;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.section-footer .footer-about .footer-about-text strong {
+  color: #fa172a;
+}
+.section-footer .footer-about .footer-about-text p {
+  color: whitesmoke;
+  text-align: justify;
+}
+.section-footer .footer-developer {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+.section-footer .footer-developer .footer-developer-title h3 {
+  color: whitesmoke;
+}
+.section-footer .footer-developer .footer-developer-title p {
+  color: whitesmoke;
+}
+.section-footer .footer-developer .footer-developer-social h4 {
+  color: whitesmoke;
+}
+.section-footer .footer-developer .footer-developer-social a {
+  color: #fa172a;
+}
+
+@media only screen and (min-width: 260px) and (max-width: 678px) {
+  .menu {
+    display: none;
+  }
+  .menu-responsivo {
+    display: block;
+  }
+  .menu-responsivo:hover {
+    transform: translatex(160px);
+  }
+}/*# sourceMappingURL=Style-Architecture.css.map */

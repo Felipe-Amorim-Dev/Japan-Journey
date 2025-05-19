@@ -1,0 +1,8 @@
+@media only screen and (min-width: 360px) and (max-width: 678px) {
+  .menu-principal {
+    display: none;
+  }
+  .menu-secundario:hover {
+    transform: translatex(260px);
+  }
+}/*# sourceMappingURL=Responsive.css.map */

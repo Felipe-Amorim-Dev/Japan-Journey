@@ -1,0 +1,44 @@
+
+.about-map{
+    //margin-top: 3vw;    
+    background-color: #d0f7fc6c;
+    padding: 6vw 0 6vw 0;
+
+        .map-titulo{
+            justify-content: center;
+            align-items: center;            
+        
+                h2{         
+                    width: 100vw;
+                    height: auto;    
+                    padding: 10px 30px 10px 30px;                 
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 3vw;   
+                    text-transform: uppercase;                    
+                
+                        img{
+                            width: 5vw;
+                            height: auto;
+                        }
+                }
+        }
+        
+        
+        
+        .map{    
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            padding: 0 3vw 0 3vw;        
+                
+                iframe{       
+                    margin-top: 3vw;                    
+                    border-radius: 20px;
+                    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.60);                    
+                }
+        }
+}
+
+
+
