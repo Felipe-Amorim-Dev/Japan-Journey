@@ -31,7 +31,7 @@ Este projeto foi desenvolvido com o objetivo de apresentar a cultura Japonesa de
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-🔗 **Acesse aqui:** [Figma-Template](https://www.figma.com/community/file/1506385914966076150/template-japan-journey)
+🔗 **Acesse aqui:** [Figma-Template](https://www.figma.com/community/file/1506385914966076150)
 
 ---
 
