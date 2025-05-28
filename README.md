@@ -38,8 +38,6 @@ Este projeto foi desenvolvido com o objetivo de apresentar a cultura Japonesa de
 
 A página está hospedada e disponível gratuitamente na Netlify:
 
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-
 [![Deploy - Netlify](https://img.shields.io/badge/Netlify-Página_Web-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://japanjourney.netlify.app/)
 
 ---
