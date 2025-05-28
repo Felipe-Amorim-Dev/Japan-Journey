@@ -15,11 +15,12 @@
 ## 🚀 Tecnologias utilizadas
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+![Figma](https://img.shields.io/badge/Figma-Design-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-Markup-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-Styling-%23CD6799?style=for-the-badge&logo=sass&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styles-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-%230078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -29,9 +30,7 @@ Uma interface mais clássica, responsiva e focada na cultura.
 
 Este projeto foi desenvolvido com o objetivo de apresentar a cultura Japonesa de forma simples, combinando design minimalista, tipografia limpa e contraste visual. A paleta foi pensada para transmitir simplicidade e sofisticação.
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-🔗 **Acesse aqui:** [Figma-Template](https://www.figma.com/community/file/1506385914966076150)
+[![Figma Template](https://img.shields.io/badge/Figma-Template-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1506385914966076150)
 
 ---
 
@@ -41,7 +40,7 @@ A página está hospedada e disponível gratuitamente na Netlify:
 
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-🔗 **Acesse aqui:** [japanjourney.netlify.app](https://japanjourney.netlify.app/)
+[![Deploy - Netlify](https://img.shields.io/badge/Netlify-Página_Web-%2300C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://japanjourney.netlify.app/)
 
 ---
 
