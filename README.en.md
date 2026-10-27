@@ -45,6 +45,17 @@ Open `index.html` in a browser.
 
 [Visit the project](https://japanjourney.netlify.app/)
 
+## 🏗️ Project organization and implementation
+
+- Multi-page site with index.html and PAGES/Architecture.html, Art.html, Culture.html and Gastronomy.html.
+- SASS contains page styles and shared partials for banners, navigation, fonts, footer and responsive layouts.
+- IMG groups assets by Architecture, Art, Culture and Gastronomy; CSS contains browser styles.
+- JS includes local interaction resources; Apresentação contains project screenshots.
+
+### Rendering and assets
+
+The central project assets can be found in `PAGES/`. The entry point is `index.html`.
+
 <a id="licenca"></a>
 ## 📄 License
 
