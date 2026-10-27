@@ -4,8 +4,8 @@
 
 
 <p align="center">
-  <img src="Apresentação/Apresentação mult-devices.jpg" alt="Mockup multidevices do SmartWatch" width="100%"/>       
-  <img src="Apresentação/Apresentação Web.jpg" alt="Mockup multidevices do SmartWatch" width="100%"/>   
+  <img src="Apresentação/Apresentação mult-devices.jpg" alt="Mockup multidevices do Japan Journey" width="100%"/>       
+  <img src="Apresentação/Apresentação Web.jpg" alt="Mockup multidevices do Japan Journey" width="100%"/>   
 </p>
 
 <p align="start">
@@ -28,7 +28,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma interface mais clássica, responsiva e focada na cultura.
 
-Este projeto foi desenvolvido com o objetivo de apresentar a cultura Japonesa de forma simples, combinando design minimalista, tipografia limpa e contraste visual. A paleta foi pensada para transmitir simplicidade e sofisticação.
+Este projeto foi desenvolvido com o objetivo de apresentar a cultura japonesa de forma simples, combinando design minimalista, tipografia limpa e contraste visual. A paleta foi pensada para transmitir simplicidade e sofisticação.
 
 [![Figma Template](https://img.shields.io/badge/Figma-Template-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1506385914966076150)
 
@@ -48,9 +48,9 @@ A página do **JapanJourney** foi desenvolvida com foco em:
 
 - **Design responsivo** para se adaptar a qualquer dispositivo
 - **Apresentação** da cultura, arquitetura, arte e da Gastronomia
-- **Estética minimalista** com destaque na cultira
+- **Estética minimalista** com destaque na cultura
 
-O layout foi planejado para destacar a cultura do Japão, apresentar suas arte, gastronomia incrivel e sua arquitetura única.
+O layout foi planejado para destacar a cultura do Japão, apresentar suas arte, gastronomia incrível e sua arquitetura única.
 
 ---
 
@@ -66,10 +66,10 @@ O layout foi planejado para destacar a cultura do Japão, apresentar suas arte, 
 ## 📌 Como rodar localmente
 
 1. Clone o repositório:  
-   `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+   `git clone https://github.com/Felipe-Amorim-Dev/Japan-Journey.git`
 
 2. Acesse o diretório:  
-   `cd nome-do-repositorio`
+   `cd Japan-Journey`
 
 3. Abra o arquivo `index.html` no seu navegador.
 
