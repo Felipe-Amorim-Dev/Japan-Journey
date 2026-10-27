@@ -45,6 +45,17 @@ Abra `index.html` no navegador.
 
 [Acessar projeto](https://japanjourney.netlify.app/)
 
+## 🏗️ Organização e implementação do projeto
+
+- Site multipágina organizado em index.html e PAGES/Architecture.html, Art.html, Culture.html e Gastronomy.html.
+- SASS contém arquivos SCSS de estilos por página e parciais compartilhadas de banner, menu, fontes, rodapé e responsividade.
+- IMG organiza os recursos por tema (Architecture, Art, Culture, Gastronomy); CSS armazena os estilos aplicados.
+- JS inclui dependências locais para interação; os arquivos de Apresentação reúnem telas do projeto.
+
+### Estrutura e recursos
+
+Os principais arquivos e recursos estão em `PAGES/`. O ponto de entrada é `index.html`.
+
 <a id="licenca"></a>
 ## 📄 Licença
 
